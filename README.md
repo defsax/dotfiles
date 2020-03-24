@@ -1,2 +1,2 @@
 # dotfiles
-Perry Defayette's
+Perry Defayette's dotfiles
