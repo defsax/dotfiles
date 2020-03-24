@@ -34,4 +34,3 @@ function linkDotFile {
 linkDotFile .bashrc
 linkDotFile .gitconfig
 linkDotFile .vimrc
-#linkDotFile .bash_aliases
