@@ -133,6 +133,7 @@ alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo
 # Alias definitions.
 #alias up='source ~/Documents/update.sh'
 alias up='sudo apt update && sudo apt upgrade && sudo apt autoremove'
+alias weather='curl wttr.in'
 alias ll='ls -alF --color=auto'
 alias la='ls -A --color=auto'
 alias l='ls -CF --color=auto'
