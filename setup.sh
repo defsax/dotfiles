@@ -3,6 +3,8 @@
 #current dir
 dotFileDir=$(pwd)
 
+echo $USER
+
 function linkDotFile {
   #get location of dotfile in home dir
   dest="${HOME}/${1}"

@@ -138,9 +138,10 @@ alias ll='ls -alF --color=auto'
 alias la='ls -A --color=auto'
 alias l='ls -CF --color=auto'
 alias ls='figlet "listing: " | lolcat && ls -ACF --color=auto'
-alias sstart='sudo $(history -p /opt/lampp/lampp start)'
-alias sstop='sudo $(history -p /opt/lampp/lampp stop)'
-
+# alias sstart='sudo $(history -p /opt/lampp/lampp start)'
+# alias sstop='sudo $(history -p /opt/lampp/lampp stop)'
+alias sstop='sudo /opt/lampp/lampp stop'
+alias sstart='sudo /opt/lampp/lampp start'
 
 # enable programmable completion features (you don't need to enable this, if it's already enabled in /etc/bash.bashrc and /etc/profile sources /etc/bash.bashrc).
 if ! shopt -oq posix; then

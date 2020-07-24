@@ -13,6 +13,7 @@ function install {
 
 install git
 install vim
+install hugo
 install firefox
 install chromium-browser
 
@@ -20,5 +21,11 @@ install vlc
 install gimp
 install transmission
 
+#for XAMPP
+install net-tools
+
 install figlet
 install lolcat
+
+#update all
+sudo apt update && sudo apt upgrade && sudo apt autoremove
