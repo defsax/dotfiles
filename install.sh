@@ -20,10 +20,12 @@ install chromium-browser
 install vlc
 install gimp
 install transmission
+install lynx
 
 #for XAMPP
 install net-tools
 
+#for fun
 install figlet
 install lolcat
 
